@@ -12,7 +12,7 @@ git clone https://github.com/DeTosis/cstr
 
 To use API you need to add `str.c` and `str.h` in to your project.
 
-Add `str.c` to your build;
+Add `str.c` to your build.
 
 ## Features
 
@@ -34,7 +34,7 @@ str* str_set(const char* value);
 ```
 ```c
 //Frees allocated `str` object
-void str_free(str* st);
+void str_free(str** st);
 ```
 ```c
 //Returns a ptr to a deep copy of `str` 
