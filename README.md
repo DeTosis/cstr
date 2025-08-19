@@ -50,7 +50,7 @@ cd cstr
 make
 ```
 
-`make` to compile prject
+`make` to compile project
 
 Optional:
 
@@ -59,7 +59,7 @@ Optional:
 `make runc` to compile and clear `.obj` files from the build directory
 
 ---
-_Compiled .exe would be in `./build` directory_
+_Compiled `.exe` would be in `./build` directory_
 
 _Makefile provided required MSVC compiler build only for windows_
 
